@@ -22,11 +22,11 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj",
+    "preferredEditor": "blocksprj",
     "yotta": {
         "config": {
-            "DMESG_SERIAL_DEBUG": 0,
-            "CODAL_DEBUG": "CODAL_DEBUG_DISABLED",
+            "DMESG_SERIAL_DEBUG": 1,
+            "CODAL_DEBUG": "CODAL_DEBUG_HEAP",
             "DEVICE_DMESG_BUFFER_SIZE": 3072
         }
     }
