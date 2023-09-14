@@ -22,10 +22,12 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj",
+    "preferredEditor": "tsprj",
     "yotta": {
         "config": {
-            "CODAL_EXAMPLE": "A"
+            "DMESG_SERIAL_DEBUG": 0,
+            "CODAL_DEBUG": "CODAL_DEBUG_DISABLED",
+            "DEVICE_DMESG_BUFFER_SIZE": 3072
         }
     }
 }
